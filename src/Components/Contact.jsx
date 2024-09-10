@@ -59,7 +59,6 @@ const Contact = () => {
             <h2 className='text-2xl font-semibold text-center mb-4'>Follow me</h2>
             <div className='flex justify-center space-x-6'>
               <a
-                href="https://www.linkedin.com/in/kshitij-guleri-14233626b/"
                 className='text-blue-600 text-3xl hover:text-blue-800 transition duration-300'
                 target="_blank" 
                 rel="noopener noreferrer"
