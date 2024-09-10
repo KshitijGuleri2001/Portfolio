@@ -1,5 +1,4 @@
 import React from 'react';
-import Typical from 'react-typical'; // Import Typical
 import developer from "../Images/person.jpg";
 import { LiaFileDownloadSolid } from "react-icons/lia"
 const Main = () => {
@@ -19,11 +18,7 @@ const Main = () => {
       <div className='absolute top-[30%] left-1/2 transform -translate-x-1/2 text-center'>
         {/* Profile Heading with Typewriter Effect */}
         <h1 className='text-5xl md:text-7xl font-bold mb-4'>Kshitij Guleri</h1>
-        <Typical
-          steps={['Full-Stack Web Developer', 1500]}
-          wrapper="p"
-          className='text-xl md:text-3xl text-gray-300 mb-4'
-        />
+   
 
         {/* Skills Section */}
         <div className='mt-8'>
